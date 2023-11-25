@@ -1,31 +1,14 @@
-const linew = document.createElement('li');
-linew.innerHTML= ` Grapes Juice
-<button class="remove-item btn-link text-red">
-  <i class="fa-solid fa-xmark"></i>
-</button>`;
+var x =1
+a()
+b()
+console.log(x)
 
-console.log(linew);
-
-document.querySelector('ul').appendChild(linew);
-
-
-function createnewElement(item){
-  const li = document.createElement('li');
-  li.appendChild(document.createTextNode(item));
-
-
-  const button = document.createElement('button');
-  button.className= "remove-item btn-link text-red";
-
-  const icon = document.createElement('i');
-  icon.className= "fa-solid fa-xmark";
-
-  button.appendChild(icon);
-  li.appendChild(button);
-
-
-  document.querySelector('.items').appendChild(li);
-
+function a(){
+   var x = 10;
+   console.log(x)
 }
 
-createnewElement('chicken');
+function b(){
+   var x =100;
+   console.log(x);
+}

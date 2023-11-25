@@ -1,0 +1,3 @@
+[submodule "git_conflicts"]
+	path = git_conflicts
+	url = https://github.com/Raghu5jan/git_conflicts
